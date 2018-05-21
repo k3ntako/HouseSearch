@@ -1,0 +1,45 @@
+	td {
+	text-align: center;
+}
+
+a.address:link, a.address:visited {
+	color: black;
+	text-decoration: bold;
+}
+
+table { /*#th, td*/
+   border: 1px solid black;
+   border-collapse: collapse;
+
+}
+table{
+	max-width: 96%;
+	margin-left:auto; 
+    margin-right:auto;;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+	height: 430px;
+}
+th{
+	background: #191970;
+	font-size: 200%;
+	color: white;
+
+}
+img{
+	clip: rect(0px,550px,400px,50px); /*clip: rect(<top>, <right>, <bottom>, <left>);*/
+	overflow: visible;
+	max-height: 400px;
+	max-width: 500px;
+	/**position: absolute;**/
+}
+table td:nth-child(3) { 
+	width: 520px; 
+}
